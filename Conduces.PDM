@@ -1,0 +1,333 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Tasas de Uso]
+Icon1=Condalco.exe
+Title1=Tasas de Uso
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Temp\Install_Tasas
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+U2FXLS.DLL=
+U2FWORDW.DLL=
+U2FWKS.DLL=
+U2FTEXT.DLL=
+U2FSEPV.DLL=
+U2FRTF.DLL=
+U2FREC.DLL=
+U2FHTML.DLL=
+U2FDIF.DLL=
+U2FCR.DLL=
+U2DMAPI.DLL=
+CRXLAT32.DLL=
+CheckPeople3.ocx=
+msado20.tlb=
+dao360.dll=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\MSADO20.TLB=
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=
+C:\WINDOWS\system32\stdole32.tlb=
+C:\Windows\System32\MSXML.DLL=
+C:\Windows\System32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=
+C:\Windows\SysWOW64\MSXML.DLL=
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Program Files (x86)\Common Files\Microsoft Shared\DAO\dao360.dll=
+C:\Windows\SysWOW64\CheckPeople3.ocx=
+C:\Windows\SysWOW64\WinXPC Engine.ocx=
+C:\Windows\SysWOW64\LectorDeHuella.dll=
+C:\Windows\System32\winhttp.dll=
+C:\Windows\SysWOW64\ieframe.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\CRYSTL32.OCX=
+C:\Windows\SysWOW64\COMDLG32.OCX=
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+C:\Windows\SysWOW64\crystl32.ocx=
+C:\Windows\SysWOW64\MSFLXGRD.OCX=
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\Windows\SysWOW64\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\stdole32.tlb=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Ctec\Ejecutables Temporales Marzo - 2023\Conduces\Condalco.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\dao360.dll=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Windows\SysWOW64\STDFTES.DLL=Yes
+C:\Windows\SysWOW64\MSXML.DLL=Yes
+C:\Windows\SysWOW64\ieframe.dll=Yes
+C:\Windows\SysWOW64\scrrun.dll=Yes
+C:\Windows\SysWOW64\msvcrt.dll=Yes
+C:\Windows\SysWOW64\SCRRNES.DLL=Yes
+C:\Windows\System32\winhttp.dll=Yes
+C:\Windows\SysWOW64\LectorDeHuella.dll=Yes
+C:\Windows\SysWOW64\MSFLXGRD.OCX=Yes
+C:\Windows\SysWOW64\FLXGDES.DLL=Yes
+C:\Windows\SysWOW64\MSMASK32.OCX=Yes
+C:\Windows\SysWOW64\MSMSKES.DLL=Yes
+C:\Windows\SysWOW64\COMCTL32.OCX=Yes
+C:\Windows\SysWOW64\CMCTLES.DLL=Yes
+C:\Windows\SysWOW64\crystl32.ocx=Yes
+C:\Windows\SysWOW64\crpe32.dll=Yes
+C:\Windows\SysWOW64\implode.dll=Yes
+C:\Windows\SysWOW64\pg32.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\Windows\SysWOW64\p2bbnd.dll=Yes
+C:\Windows\SysWOW64\p3d4bdes.dll=Yes
+C:\Windows\SysWOW64\p2bdao.dll=Yes
+C:\Windows\SysWOW64\p3bdaoes.dll=Yes
+C:\Windows\SysWOW64\p2ctdao.dll=Yes
+C:\Windows\SysWOW64\p3cdaoes.dll=Yes
+C:\Windows\SysWOW64\p2irdao.dll=Yes
+C:\Windows\SysWOW64\p3rdaoes.dll=Yes
+C:\Windows\SysWOW64\p2sodbc.dll=Yes
+C:\Windows\SysWOW64\p3s4odes.dll=Yes
+C:\Windows\SysWOW64\u2ddisk.dll=Yes
+C:\Windows\SysWOW64\x2d4dkes.dll=Yes
+C:\Windows\SysWOW64\cr2c40es.dll=Yes
+C:\Windows\SysWOW64\cc245es.dll=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\ADODCES.DLL=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\DATGDES.DLL=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Windows\SysWOW64\CMDLGES.DLL=Yes
+C:\Windows\SysWOW64\TABCTL32.OCX=Yes
+C:\Windows\SysWOW64\TABCTES.DLL=Yes
+C:\Windows\SysWOW64\CheckPeople3.ocx=Yes
+C:\Windows\SysWOW64\WinXPC Engine.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\TTBogota\Oracle_Ado\Conduces\Condalco.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole32.tlb=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CRYSTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CRPE32.DLL=$(WinSysPath)
+C:\WINDOWS\system32\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\PG32.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\crxlat32.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\p2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2ddisk.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2dmapi.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2fcr.dll=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2fhtml.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2frec.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2frtf.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2fsepv.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2ftext.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2fwks.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2fwordw.dll=$(WinPath)\Crystal
+C:\WINDOWS\system32\u2fxls.dll=$(WinPath)\Crystal
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADO20.TLB=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Fuentes\TTBogota\Oracle_Ado\Conduces\Condalco.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSXML.DLL=$(WinSysPath)
+C:\Windows\System32\FLXGDES.DLL=$(WinSysPath)
+C:\Windows\System32\MSMSKES.DLL=$(WinSysPath)
+C:\Windows\System32\CMCTLES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\Windows\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\Windows\System32\P3D4BDES.DLL=$(WinSysPath)
+C:\Windows\System32\P3BDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P3CDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P3RDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P3S4ODES.DLL=$(WinSysPath)
+C:\Windows\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4DKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4MPES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4CRES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4DFES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4HTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RCES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4SVES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4TXES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WDES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4XLES.DLL=$(WinPath)\Crystal
+C:\Windows\System32\CR2C40ES.DLL=$(WinSysPath)
+C:\Windows\System32\CC245ES.DLL=$(WinSysPath)
+C:\Windows\System32\MSCMCES.DLL=$(WinSysPath)
+C:\Windows\System32\ADODCES.DLL=$(WinSysPath)
+C:\Windows\System32\DATGDES.DLL=$(WinSysPath)
+C:\Windows\System32\CMDLGES.DLL=$(WinSysPath)
+C:\Windows\System32\TABCTES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+Y:\Fuentes\TTBogota\Oracle_Ado\Conduces_Antes_Datacenter\Condalco.exe=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\STDFTES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSXML.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSFLXGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\FLXGDES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSMASK32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSMSKES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\COMCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\CMCTLES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\crystl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\crpe32.dll=$(WinSysPath)
+C:\Windows\SysWOW64\implode.dll=$(WinSysPath)
+C:\Windows\SysWOW64\pg32.dll=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\p2bbnd.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p3d4bdes.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p2bdao.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p3bdaoes.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p2ctdao.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p3cdaoes.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p2irdao.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p3rdaoes.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p2sodbc.dll=$(WinSysPath)
+C:\Windows\SysWOW64\p3s4odes.dll=$(WinSysPath)
+C:\Windows\SysWOW64\u2ddisk.dll=$(WinPath)\Crystal
+C:\Windows\SysWOW64\x2d4dkes.dll=$(WinPath)\Crystal
+C:\Windows\SysWOW64\cr2c40es.dll=$(WinSysPath)
+C:\Windows\SysWOW64\cc245es.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCMCES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\ADODCES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\DATGDES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\CMDLGES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\TABCTES.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\proyecto\TTBogota\Oracle_Ado\Conduces\Condalco.exe=$(AppPath)
+C:\Windows\SysWOW64\CheckPeople3.ocx=$(WinSysPath)
+Y:\Fuentes\TTBogota\Oracle_Ado\Conduces\Condalco.exe=$(AppPath)
+C:\WINDOWS\system32\STDFTES.DLL=$(WinSysPath)
+C:\Ctec\Ejecutables Temporales Marzo - 2023\Conduces\Condalco.exe=$(AppPath)
+C:\Windows\SysWOW64\ieframe.dll=$(WinSysPath)
+C:\Windows\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msvcrt.dll=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\SCRRNES.DLL=$(WinSysPath)
+C:\Windows\System32\winhttp.dll=$(WinSysPath)
+C:\Windows\SysWOW64\LectorDeHuella.dll=$(WinSysPath)
+C:\Windows\SysWOW64\WinXPC Engine.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\TTBogota\Oracle_Ado\Conduces\Condalco.exe=No
+E:\Fuentes\TTBogota\Oracle_Ado\Conduces\Condalco.exe=No
+Y:\Fuentes\TTBogota\Oracle_Ado\Conduces_Antes_Datacenter\Condalco.exe=No
+D:\proyecto\TTBogota\Oracle_Ado\Conduces\Condalco.exe=No
+Y:\Fuentes\TTBogota\Oracle_Ado\Conduces\Condalco.exe=No
+C:\Ctec\Ejecutables Temporales Marzo - 2023\Conduces\Condalco.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Tasas de Uso
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Gopett
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Gopett]
+Icon1=Condalco.exe
+Title1=Tasas de Uso
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Temp\Install_Tasas
+ProjectFolder=C:\Ctec\Ejecutables Temporales Marzo - 2023\Conduces
+ServerSideCab=
+File1=C:\Temp\Install_Tasas\setup.exe
+File2=C:\Temp\Install_Tasas\Setup.Lst
+File3=C:\Temp\Install_Tasas\Condalco.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
