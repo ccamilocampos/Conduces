@@ -43,7 +43,7 @@ Begin VB.Form Capconduce
       Top             =   0
    End
    Begin VB.CheckBox chkDatosPersonales 
-      Caption         =   "øTratamiento de datos personales?"
+      Caption         =   "¬øTratamiento de datos personales?"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -223,7 +223,7 @@ Begin VB.Form Capconduce
       Style           =   1  'Graphical
       TabIndex        =   26
       TabStop         =   0   'False
-      ToolTipText     =   "CancelaciÛn de multas/ Comparendos"
+      ToolTipText     =   "Cancelaci√≥n de multas/ Comparendos"
       Top             =   1800
       Width           =   855
    End
@@ -385,12 +385,12 @@ Begin VB.Form Capconduce
          MaxLength       =   10
          TabIndex        =   39
          TabStop         =   0   'False
-         ToolTipText     =   "CÛdigo de la empresa de Transporte (presione DblClick para ayuda)"
+         ToolTipText     =   "C√≥digo de la empresa de Transporte (presione DblClick para ayuda)"
          Top             =   240
          Width           =   1095
       End
       Begin VB.Label Label1 
-         Caption         =   "N˙m. Convenio:"
+         Caption         =   "N√∫m. Convenio:"
          BeginProperty Font 
             Name            =   "MS Sans Serif"
             Size            =   8.25
@@ -410,7 +410,7 @@ Begin VB.Form Capconduce
       End
    End
    Begin VB.Frame Frame2 
-      Caption         =   "ResoluciÛn 315"
+      Caption         =   "Resoluci√≥n 315"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -440,7 +440,7 @@ Begin VB.Form Capconduce
          Left            =   4560
          MaxLength       =   20
          TabIndex        =   15
-         ToolTipText     =   "CÛdigo barras de peajes"
+         ToolTipText     =   "C√≥digo barras de peajes"
          Top             =   1560
          Width           =   1455
       End
@@ -476,7 +476,7 @@ Begin VB.Form Capconduce
          Left            =   120
          MaxLength       =   12
          TabIndex        =   8
-         ToolTipText     =   "N˙mero cÈdula del conductor"
+         ToolTipText     =   "N√∫mero c√©dula del conductor"
          Top             =   480
          Width           =   1215
       End
@@ -530,7 +530,7 @@ Begin VB.Form Capconduce
          Left            =   120
          MaxLength       =   12
          TabIndex        =   11
-         ToolTipText     =   "N˙mero cÈdula del conductor"
+         ToolTipText     =   "N√∫mero c√©dula del conductor"
          Top             =   1080
          Width           =   1215
       End
@@ -566,7 +566,7 @@ Begin VB.Form Capconduce
          Left            =   1800
          MaxLength       =   20
          TabIndex        =   14
-         ToolTipText     =   "N˙merode alistamiento del vehÌculo"
+         ToolTipText     =   "N√∫merode alistamiento del veh√≠culo"
          Top             =   1560
          Width           =   1455
       End
@@ -609,7 +609,7 @@ Begin VB.Form Capconduce
          Width           =   1095
       End
       Begin VB.Label Label1 
-         Caption         =   "CÈdula"
+         Caption         =   "C√©dula"
          BeginProperty Font 
             Name            =   "MS Sans Serif"
             Size            =   8.25
@@ -666,7 +666,7 @@ Begin VB.Form Capconduce
          Width           =   1095
       End
       Begin VB.Label Label1 
-         Caption         =   "CÈdula"
+         Caption         =   "C√©dula"
          BeginProperty Font 
             Name            =   "MS Sans Serif"
             Size            =   8.25
@@ -724,7 +724,7 @@ Begin VB.Form Capconduce
       End
    End
    Begin VB.CheckBox chkcredito 
-      Caption         =   "CrÈdito"
+      Caption         =   "Cr√©dito"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -768,7 +768,7 @@ Begin VB.Form Capconduce
       Left            =   1920
       MaxLength       =   3
       TabIndex        =   7
-      ToolTipText     =   "CÛdigo de la ruta de origen (presione DblClick para ayuda)"
+      ToolTipText     =   "C√≥digo de la ruta de origen (presione DblClick para ayuda)"
       Top             =   4080
       Width           =   855
    End
@@ -934,7 +934,7 @@ Begin VB.Form Capconduce
       Left            =   1920
       MaxLength       =   3
       TabIndex        =   5
-      ToolTipText     =   "CÛdigo de la ruta (Presione DblClick para ayuda)"
+      ToolTipText     =   "C√≥digo de la ruta (Presione DblClick para ayuda)"
       Top             =   3120
       Width           =   855
    End
@@ -954,7 +954,7 @@ Begin VB.Form Capconduce
       MaxLength       =   4
       TabIndex        =   4
       TabStop         =   0   'False
-      ToolTipText     =   "CÛdigo de la empresa de Transporte (presione DblClick para ayuda)"
+      ToolTipText     =   "C√≥digo de la empresa de Transporte (presione DblClick para ayuda)"
       Top             =   2640
       Width           =   855
    End
@@ -975,12 +975,12 @@ Begin VB.Form Capconduce
       Locked          =   -1  'True
       TabIndex        =   0
       TabStop         =   0   'False
-      ToolTipText     =   "N˙mero de tasa de uso"
+      ToolTipText     =   "N√∫mero de tasa de uso"
       Top             =   360
       Width           =   1455
    End
    Begin VB.Frame Frame1 
-      Caption         =   "InformaciÛn del VehÌculo"
+      Caption         =   "Informaci√≥n del Veh√≠culo"
       BeginProperty Font 
          Name            =   "Times New Roman"
          Size            =   8.25
@@ -1012,7 +1012,7 @@ Begin VB.Form Capconduce
          MaxLength       =   2
          TabIndex        =   3
          TabStop         =   0   'False
-         ToolTipText     =   "Clase de servicio del vehÌculo"
+         ToolTipText     =   "Clase de servicio del veh√≠culo"
          Top             =   360
          Width           =   615
       End
@@ -1032,7 +1032,7 @@ Begin VB.Form Capconduce
          MaxLength       =   6
          TabIndex        =   2
          TabStop         =   0   'False
-         ToolTipText     =   "N˙mero interno del vehÌculo"
+         ToolTipText     =   "N√∫mero interno del veh√≠culo"
          Top             =   360
          Width           =   735
       End
@@ -1050,7 +1050,7 @@ Begin VB.Form Capconduce
          Left            =   720
          MaxLength       =   6
          TabIndex        =   1
-         ToolTipText     =   "Placa del vehÌculo"
+         ToolTipText     =   "Placa del veh√≠culo"
          Top             =   360
          Width           =   975
       End
@@ -1091,7 +1091,7 @@ Begin VB.Form Capconduce
          Width           =   615
       End
       Begin VB.Label Label1 
-         Caption         =   "N˙m.Int."
+         Caption         =   "N√∫m.Int."
          BeginProperty Font 
             Name            =   "MS Sans Serif"
             Size            =   8.25
@@ -1778,7 +1778,7 @@ Begin VB.Form Capconduce
       Width           =   3255
    End
    Begin VB.Label Label1 
-      Caption         =   "CÛdigo de  Origen"
+      Caption         =   "C√≥digo de  Origen"
       Enabled         =   0   'False
       BeginProperty Font 
          Name            =   "MS Sans Serif"
@@ -1817,7 +1817,7 @@ Begin VB.Form Capconduce
       Width           =   1575
    End
    Begin VB.Label Label1 
-      Caption         =   "CÛdigo de  Ruta:"
+      Caption         =   "C√≥digo de  Ruta:"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -1836,7 +1836,7 @@ Begin VB.Form Capconduce
       Width           =   1575
    End
    Begin VB.Label Label1 
-      Caption         =   "CÛdigo Empresa:"
+      Caption         =   "C√≥digo Empresa:"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -2076,15 +2076,15 @@ Dim L_IntegracionProtech As String
 Dim L_UrlApiControlSalida As String
 Dim L_UrlServer As String
 
-'Sebasti·n RondÛn Noviembre 02 - 2022
+'Sebasti√°n Rond√≥n Noviembre 02 - 2022
 Dim L_Bandera_CobroTag
 Dim L_Bandera_NumeroTag
 Dim L_Bandera_ReimpresionTag As Boolean
 
-'Sebasti·n Rondon Abril 12 - 2023
+'Sebasti√°n Rondon Abril 12 - 2023
 Dim L_Bandera_CierreAutomatico As Integer
 
-'Sebasti·n RondÛn - Noviembre 14 de 2023
+'Sebasti√°n Rond√≥n - Noviembre 14 de 2023
 Dim L_Bandera_Ruta_Lector As String
 
 Dim PasajerosOrigen
@@ -2100,7 +2100,7 @@ Private Enum tipoConversion
 End Enum
 Private tipo As tipoConversion
 
-' Estas definiciones est·n tomadas de lo mostrado en el explorador
+' Estas definiciones est√°n tomadas de lo mostrado en el explorador
 ' al seleccionar cada una de las funciones del servicio Web
 'Private Const cSOAPCaF = _
     "<?xml version=""1.0"" encoding=""utf-8""?>" & _
@@ -2129,16 +2129,16 @@ Private Sub Transmitir(ByVal sQry As String)
     '
     Dim parser As DOMDocument
     Set parser = New DOMDocument
-    ' cargar el cÛdigo SOAP para FaC
+    ' cargar el c√≥digo SOAP para FaC
     parser.loadXML cSOAPValida
     '
-    ' Indicar el par·metro a enviar
+    ' Indicar el par√°metro a enviar
     parser.selectSingleNode("/soap:Envelope/soap:Body/Valida/sql").text = sQry
     '
-    ' Mostrar el cÛdigo XML enviado al servicio Web
+    ' Mostrar el c√≥digo XML enviado al servicio Web
     sBandera = parser.xml
     '
-    ' Usar el control Inet para realizar la operaciÛn HTTP POST
+    ' Usar el control Inet para realizar la operaci√≥n HTTP POST
     'Inet1.Execute txtURL.Text, "POST", parser.xml, "Content-Type: text/xml; charset=utf-8" & vbCrLf & "SOAPAction: http://elGuille/WebServices/Tiempo_Conductor"
     '
     enviarComando parser.xml, "http://localhost/Valida"
@@ -2152,11 +2152,11 @@ End Sub
 Private Sub enviarComando(ByVal sXml As String, ByVal sSoapAction As String)
     ' Enviar el comando al servicio Web
     '
-    ' usar XMLHTTPRequest para enviar la informaciÛn al servicio Web
+    ' usar XMLHTTPRequest para enviar la informaci√≥n al servicio Web
     Dim oHttReq As XMLHTTPRequest
     Set oHttReq = New XMLHTTPRequest
     '
-    ' Enviar el comando de forma sÌncrona (se espera a que se reciba la respuesta)
+    ' Enviar el comando de forma s√≠ncrona (se espera a que se reciba la respuesta)
     oHttReq.Open "POST", G_Url_Web_Services, False
     ' las cabeceras a enviar al servicio Web
     ' (no incluir los dos puntos en el nombre de la cabecera)
@@ -2165,7 +2165,7 @@ Private Sub enviarComando(ByVal sXml As String, ByVal sSoapAction As String)
     ' enviar el comando
     oHttReq.send sXml
     '
-    ' este ser· el texto recibido del servicio Web
+    ' este ser√° el texto recibido del servicio Web
     procesarRespuesta oHttReq.responseText
     '
 End Sub
@@ -2284,7 +2284,7 @@ Private Function Traer_Novedades(ByVal fPlaca As String) As Boolean
    Ftb02.Close
       
    If TextNove <> "" Then
-      MsgBox TextNove, 48, "InformaciÛn"
+      MsgBox TextNove, 48, "Informaci√≥n"
    End If
    
 End Function
@@ -3081,7 +3081,7 @@ Private Sub Traer_Tasas_Terminal_Norte(ByVal sPlaca As String)
       
       LCodigoRutaNorteIntegra = Fn_Equivalencia_Ruta(L_Ruta_Transito_Norte)
       If Trim(LCodigoRutaNorteIntegra) = "" Then
-         MsgBox "El cÛdigo de la ruta transito no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+         MsgBox "El c√≥digo de la ruta transito no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
          Txtnumpla.SetFocus
          Exit Sub
       End If
@@ -3141,7 +3141,7 @@ Private Function EscogerVehiculo() As Boolean
 End Function
 
 Private Function Valida_Hora_Cierre_Facturacion() As Boolean
-    'Sebasti·n RondÛn - Enero 14 de 2025
+    'Sebasti√°n Rond√≥n - Enero 14 de 2025
    'Funcion para que se visualice un mensaje indicando si es hora de cerrar el turno u obligando el cierre de turno.
    On Error GoTo Err_Valida_Hora_Cierre_Facturacion
    Valida_Hora_Cierre_Facturacion = True
@@ -3282,7 +3282,7 @@ Private Sub TraerValorPermanenciasMultas()
    
    'Felipe Mendoza
    'Marzo 12/2024
-   'Se genera una nueva validaciÛn para evitar que se haga pagos en una caja distinta
+   'Se genera una nueva validaci√≥n para evitar que se haga pagos en una caja distinta
    QRY = "SELECT rcvalper AS vrPermanencia, rcvalmul AS vrMultas, rcnumero AS numMulta, rcnomcaj " _
             & "FROM opreccaja " _
             & "INNER JOIN cocaja " _
@@ -3294,7 +3294,7 @@ Private Sub TraerValorPermanenciasMultas()
       
    Set Tbl10 = Dbs.Execute(QRY)
    If Not Tbl10.EOF Then
-        MsgBox "El vehÌculo tiene pagos en otra caja (" & Tbl10!rcnomcaj & "), no es posible la venta", 48, "Advertencia"
+        MsgBox "El veh√≠culo tiene pagos en otra caja (" & Tbl10!rcnomcaj & "), no es posible la venta", 48, "Advertencia"
         Btnlimpiar_Click
         Exit Sub
    End If
@@ -3329,7 +3329,7 @@ Private Function ControlarCompra_TU(ByVal fCodigoRuta As String, ByVal fCodigoEm
                                       ByVal fFecha1 As String, ByVal fValida As String) As Boolean
    'WECC Nov/25/2019 Caso CAU2 No  1907
    'Se busca si existe una relacion de ser correcto se realiza la busqueda para la ruta _
-   dentro de un intervalo de hora seg˙n el descuento de minutos que tenga el parametro MINCONRUTA _
+   dentro de un intervalo de hora seg√∫n el descuento de minutos que tenga el parametro MINCONRUTA _
    con la la hora de salida digitada
    On Error GoTo Error_FnControlarCompra_TU
    ControlarCompra_TU = True
@@ -3446,9 +3446,9 @@ Private Sub BtnBuscar_Click()
    Mskfecha.Enabled = False
    Mskhora.Enabled = False
    Txtnumcon.SetFocus
-   'Sebasti·n RondÛn Agosto 31 - 2022
+   'Sebasti√°n Rond√≥n Agosto 31 - 2022
    'Sentencia para que ya haya reimprimido una vez
-   'La prÛxima le siga solicitando el usuario administrador
+   'La pr√≥xima le siga solicitando el usuario administrador
    G_Aut_Vender = "NO"
 End Sub
 
@@ -3482,7 +3482,7 @@ Private Sub BtnGrabar_Click()
         Exit Sub
    End If
    
-     'Camilo Campos 05/27/2025 debido a los ajustes hechos en rodamiento las tasas de uso por crÈdito/cupo deben pagarse en el mismo rodamiento
+     'Camilo Campos 05/27/2025 debido a los ajustes hechos en rodamiento las tasas de uso por cr√©dito/cupo deben pagarse en el mismo rodamiento
      'Por lo cual, en caso de que venga cualquier vehiculo perteneciente a credito/cupo el sistema no debe permitir el ingreso en conduces
             
       If G_valida_credito = "S" Then
@@ -3517,30 +3517,30 @@ Private Sub BtnGrabar_Click()
    End If
    
    If Txtnumpla.text = "" Then
-      MsgBox "Falta ingresar el n˙mero de la placa", 48, "Advertencia"
+      MsgBox "Falta ingresar el n√∫mero de la placa", 48, "Advertencia"
       Txtnumpla.SetFocus
       Exit Sub
    End If
    If TxtNumInt.text = "" Then
-      MsgBox "Falta ingresar el n˙mero interno del bus", 48, "Advertencia"
+      MsgBox "Falta ingresar el n√∫mero interno del bus", 48, "Advertencia"
       Txtnumpla.SetFocus
       Exit Sub
    End If
    If Txttipveh.text = "" Then
-      MsgBox "Falta ingresar la clase del vehÌculo", 48, "Advertencia"
+      MsgBox "Falta ingresar la clase del veh√≠culo", 48, "Advertencia"
       Txtnumpla.SetFocus
       Exit Sub
    End If
    
    If Trim(TxtNumAlistamiento.text) = "" Then
-      MsgBox "Falta ingresar el n˙mero de alistamiento", 48, "Advertencia"
+      MsgBox "Falta ingresar el n√∫mero de alistamiento", 48, "Advertencia"
       TxtNumAlistamiento.Enabled = True
       TxtNumAlistamiento.SetFocus
       Exit Sub
    End If
    
    If CDbl(TxtNumAlistamiento.text) = 0 Then
-      MsgBox "Falta ingresar el n˙mero de alistamiento", 48, "Advertencia"
+      MsgBox "Falta ingresar el n√∫mero de alistamiento", 48, "Advertencia"
       TxtNumAlistamiento.Enabled = True
       TxtNumAlistamiento.SetFocus
       Exit Sub
@@ -3549,12 +3549,12 @@ Private Sub BtnGrabar_Click()
    
    If Trim(txtCedula.text) = "" Then
       txtCedula.SetFocus
-      MsgBox "Falta ingresar el n˙mero de cÈdula", 48, "Advertencia"
+      MsgBox "Falta ingresar el n√∫mero de c√©dula", 48, "Advertencia"
       Exit Sub
    End If
    If Aviso_2_Conductores = False Then
       If Len(txtCedula.text) <= 4 Then
-            MsgBox "TamaÒo incorrecto del n˙mero de cÈdula", 48, "Advertencia"
+            MsgBox "Tama√±o incorrecto del n√∫mero de c√©dula", 48, "Advertencia"
             txtCedula.SetFocus
             Exit Sub
       End If
@@ -3573,14 +3573,14 @@ Private Sub BtnGrabar_Click()
    If Aviso_2_Conductores = False Then
       If Trim(TxtCedula1.text) = "" Then
          TxtCedula1.Enabled = True
-         MsgBox "Falta ingresar el n˙mero de cÈdula del segundo conductor", 48, "Advertencia"
+         MsgBox "Falta ingresar el n√∫mero de c√©dula del segundo conductor", 48, "Advertencia"
          TxtCedula1.SetFocus
          Exit Sub
       End If
       
       If Len(TxtCedula1.text) <= 4 Then
          TxtCedula1.Enabled = True
-         MsgBox "TamaÒo incorrecto del n˙mero de cÈdula", 48, "Advertencia"
+         MsgBox "Tama√±o incorrecto del n√∫mero de c√©dula", 48, "Advertencia"
          TxtCedula1.SetFocus
          Exit Sub
       End If
@@ -3625,7 +3625,7 @@ Private Sub BtnGrabar_Click()
       Exit Sub
    End If
       
-   'Si el campo de pasajeros est· habilitado, deber·n digitar la cantidad de pasajeros
+   'Si el campo de pasajeros est√° habilitado, deber√°n digitar la cantidad de pasajeros
    If Txtpasajeros.Enabled = True Then
         If Txtpasajeros.text = "" Then
             MsgBox "Debe ingresar la cantidad de pasajeros", 48, "Advertencia"
@@ -3637,7 +3637,7 @@ Private Sub BtnGrabar_Click()
       If Txtoritra.text = "O" Then
          If TxtPeaje.Enabled = True Then
             If TxtPeaje.text = "" Then
-               MsgBox "Falta ingresar el cÛdigo de peaje", 48, "Advertencia"
+               MsgBox "Falta ingresar el c√≥digo de peaje", 48, "Advertencia"
                TxtPeaje.SetFocus
                Exit Sub
             End If
@@ -3668,7 +3668,7 @@ Private Sub BtnGrabar_Click()
 '      If L_Valida_Horario = "S" Then
 '         If FnValidaHorario = False Then
 '            MsgBox "La empresa no tiene autorizado para despachar " & Chr(13) _
-'                  & "                    un vehÌculo en esta hora", 48, "Advertencia"
+'                  & "                    un veh√≠culo en esta hora", 48, "Advertencia"
 '            If Mskhora.Enabled = True Then
 '               Mskhora.SetFocus
 '            End If
@@ -3737,7 +3737,7 @@ Private Sub BtnGrabar_Click()
       'L_Codigo_Empresa = Txtcodemp.Text
       LCodigoEmpresaIntegra = Fn_Equivalencia_Empresa(L_Codigo_Empresa)
       If Trim(LCodigoEmpresaIntegra) = "" Then
-         MsgBox "El cÛdigo de la empresa no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+         MsgBox "El c√≥digo de la empresa no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
          Txtnumpla.Enabled = True
          Txtnumpla.SetFocus
          Exit Sub
@@ -3747,7 +3747,7 @@ Private Sub BtnGrabar_Click()
       LCodigoRutaIntegra = Fn_Equivalencia_Ruta(Txtcodrut.text)
       If Trim(LCodigoRutaIntegra) = "" Then
          Txtcodrut.SetFocus
-         MsgBox "El cÛdigo de la ruta no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+         MsgBox "El c√≥digo de la ruta no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
          Txtcodrut.SelStart = 0
          Txtcodrut.SelLength = Len(Txtcodrut.text)
          Exit Sub
@@ -3756,13 +3756,13 @@ Private Sub BtnGrabar_Click()
    If Trim(LTipoServicioIntegra) = "" Then
       LTipoServicioIntegra = Traer_Descripcion(Txttipveh.text, "RELACION TIPO VEHICULO-TIPO SERVICIO")
       If Trim(LClaseIntegra) = "" Then
-         MsgBox "El tipo de servicio no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+         MsgBox "El tipo de servicio no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
          Txtnumpla.Enabled = True
          Txtnumpla.SetFocus
          Exit Sub
       End If
       If Trim(LTipoServicioIntegra) = "" Then
-         MsgBox "El tipo de servicio no tiene una relaciÛn con la clase", 48, "Advertencia"
+         MsgBox "El tipo de servicio no tiene una relaci√≥n con la clase", 48, "Advertencia"
          Txtnumpla.Enabled = True
          Txtnumpla.SetFocus
          Exit Sub
@@ -3772,7 +3772,7 @@ Private Sub BtnGrabar_Click()
    If L_Numero_Terminal_Norte <> 0 And Trim(LCodigoRutaNorteIntegra) = "" Then
       LCodigoRutaNorteIntegra = Fn_Equivalencia_Ruta(L_Ruta_Transito_Norte)
       If Trim(LCodigoRutaNorteIntegra) = "" Then
-         MsgBox "El cÛdigo de la ruta transito no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+         MsgBox "El c√≥digo de la ruta transito no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
          Txtnumpla.SetFocus
          Exit Sub
       End If
@@ -3790,7 +3790,7 @@ Private Sub BtnGrabar_Click()
       
       If L_Tipo_Cupo = "E" Then
       
-      'Sebasti·n RondÛn - Mayo 11 de 2023
+      'Sebasti√°n Rond√≥n - Mayo 11 de 2023
       'Si la empresa o ruta cuenta con convenio
       'Se le debe ser cargada a la empresa contratante
 '      If Trim(txtCodEmp.text) <> Trim(L_Codigo_Empresa) Then
@@ -3799,8 +3799,8 @@ Private Sub BtnGrabar_Click()
 '        codempresa = txtCodEmp.text
 '      End If
 
-      'Sebasti·n RondÛn - Noviembre 07 de 2023
-      'Por peticiÛn de la termina
+      'Sebasti√°n Rond√≥n - Noviembre 07 de 2023
+      'Por petici√≥n de la termina
       'Si la empresa o ruta cuenta con convenio
       'Se le debe ser cargada a la empresa que compra la tasa de uso
       codempresa = Txtcodemp.text
@@ -3934,15 +3934,15 @@ Private Sub BtnGrabar_Click()
          crecon = "Contado"
       Else
          credito = "S"
-         crecon = "CrÈdito"
+         crecon = "Cr√©dito"
       End If
    Else
       credito = "N"
       crecon = "Contado"
    End If
    
-   'Sebasti·n RondÛn - Enero 27 de 2025
-   'Si el check de crÈdito est· activo, valido por ˙ltima vez si la empresa maneja este mÈtodo
+   'Sebasti√°n Rond√≥n - Enero 27 de 2025
+   'Si el check de cr√©dito est√° activo, valido por √∫ltima vez si la empresa maneja este m√©todo
    If chkcredito.Enabled = True Then
         If chkcredito.Value = 1 Then
             QRY = "SELECT hecredit FROM ophojemp WHERE hecodigo = '" & Txtcodemp.text & "' "
@@ -3994,12 +3994,12 @@ Private Sub BtnGrabar_Click()
       
    'Camilo Campos 06/19/2025 con el fin de que se paguen las multas dentro de la misma tasa de uso sin necesidad de ir al otro formulario
    'Hacemos el guardado de las seleccionadas, estas tasas seleccionadas estan en un arreglo previo (arreglo que se llena al salir del aviso)
-   'Se hace la misma sentencia que tienen en el formulario de pago de multas com˙n, con la excepciÛn que ligamos de una vez la tasa actual a dicha multa pagada
+   'Se hace la misma sentencia que tienen en el formulario de pago de multas com√∫n, con la excepci√≥n que ligamos de una vez la tasa actual a dicha multa pagada
    If TieneMultasSeleccionadas() Then 'metodo que devuelve true en caso de tener multas seleccionadas
    
        For i = LBound(multasGuardadas) To UBound(multasGuardadas)
     
-    ' Obtener el nuevo n˙mero de recibo
+    ' Obtener el nuevo n√∫mero de recibo
             QRY = "SELECT MAX(abrecibo) FROM opabonos"
             Set Tbl2 = Dbs.Execute(QRY)
             
@@ -4043,7 +4043,7 @@ Private Sub BtnGrabar_Click()
                          multasGuardadas(i).valor, _
                          fechaVenta, _
                          horven) Then
-                GoTo transac 'significa que devolviÛ false, por ello vamos a este error que posee el "rollback"
+                GoTo transac 'significa que devolvi√≥ false, por ello vamos a este error que posee el "rollback"
             End If
             DoEvents
         Next i
@@ -4068,7 +4068,7 @@ Private Sub BtnGrabar_Click()
       
          Dbs.Execute QRY
     
-    'Procedemos a replicar el cÛdigo que contabilizaba el tiempo de permanencia
+    'Procedemos a replicar el c√≥digo que contabilizaba el tiempo de permanencia
     'con unas ligeras mejoras en terminos de legibilidad y eficienia
     
         Dim horaIngreso As Date
@@ -4101,7 +4101,7 @@ Private Sub BtnGrabar_Click()
         End If
          
          
-    'Guardamos las variables necesarias para la impresiÛn del comprobante de la permanencia
+    'Guardamos las variables necesarias para la impresi√≥n del comprobante de la permanencia
     
          sNombreTerminal = G_NomEmpresa
          sNit = "NIT.860.052.155-6"
@@ -4138,7 +4138,7 @@ Private Sub BtnGrabar_Click()
                        sValor, sCajero, sCaja, sturno, _
                        sNumero, sNumeroBarras, snombrefechaingreso, sTitulo, _
                        sTiempoVigencia) Then
-            GoTo transac 'Significa que devolviÛ falso y para ello vamos al error con el "rollback"
+            GoTo transac 'Significa que devolvi√≥ falso y para ello vamos al error con el "rollback"
         End If
        
         DoEvents
@@ -4198,8 +4198,8 @@ Private Sub BtnGrabar_Click()
    Dbs.Execute QRY
    
    '*************************************************************************************
-   'Sebasti·n RondÛn Noviembre 08 - 2022
-   'Se inserta en la tabla que luego enviar· la informaciÛn al Web Service de Protech
+   'Sebasti√°n Rond√≥n Noviembre 08 - 2022
+   'Se inserta en la tabla que luego enviar√° la informaci√≥n al Web Service de Protech
    QRYP = "INSERT INTO coconenvp (conumero, coplaca, cofecsal, cohorsal, cocaja, coterminal, coestado)" _
             & "VALUES (" & Txtnumcon.text & ", '" & Txtnumpla.text & "', to_date('" & fechaVenta & "', 'MM/DD/YYYY'), to_date('" & horven & "', 'hh24:mi:ss'), '" _
             & txtcaja.text & "', '" & L_Terminal & "', 'PEN')"
@@ -4325,8 +4325,8 @@ Sigue_Proceso_Grabacion:
 '        codempresa = Txtcodemp.text
 '      End If
 
-      'Sebasti·n RondÛn - Enero 15 de 2024
-      'Por peticiÛn de la termina
+      'Sebasti√°n Rond√≥n - Enero 15 de 2024
+      'Por petici√≥n de la termina
       'Si la empresa o ruta cuenta con convenio
       'Se le debe ser cargada a la empresa que compra la tasa de uso
       codempresa = Txtcodemp.text
@@ -4371,8 +4371,8 @@ Sigue_Proceso_Grabacion:
       Dbs.Execute QRY
    End If
    
-   'Sebasti·n RondÛn - Mayo 03 de 2024
-   'Se verifica si la tasa es CrÈdito, para reflejarlo en la impresiÛn de la tasa de uso
+   'Sebasti√°n Rond√≥n - Mayo 03 de 2024
+   'Se verifica si la tasa es Cr√©dito, para reflejarlo en la impresi√≥n de la tasa de uso
    If chkcredito.Enabled = True Then
       If chkcredito.Value = 0 Then
          L_BanderaVentaTasa = L_BanderaVentaTasa
@@ -4655,7 +4655,7 @@ Sigue_Proceso_Grabacion:
 '          & "AND tempc = '" & Pc & "'"
 '   Dbs.Execute QRY
   
-    'Sebasti·n RondÛn - Marzo 13 de 2024
+    'Sebasti√°n Rond√≥n - Marzo 13 de 2024
     'Se valida nueva forma de pago de multas y permanencias
     QRY = "SELECT rcvalper AS vrPermanencia, rcvalmul AS vrMultas, rcnumero AS numMulta, rcplaca, rcnomcaj " _
             & "FROM opreccaja " _
@@ -4690,9 +4690,9 @@ Sigue_Proceso_Grabacion:
                 & "AND rcfecha = TO_DATE('" & Mskfecha.text & "','MM/DD/YYYY') "
     Dbs.Execute (QRY)
     
-    'Sebasti·n RondÛn - Marzo 14 de 2024
-    'Por orden del Jefe ¡lvaro, si se encuentra una permanencia o multa anterior sin tasa, le asigna la tasa de uso actual
-    'Para que se enviÈ el pago a la facturaciÛn electrÛnica de la DIAN
+    'Sebasti√°n Rond√≥n - Marzo 14 de 2024
+    'Por orden del Jefe √Ålvaro, si se encuentra una permanencia o multa anterior sin tasa, le asigna la tasa de uso actual
+    'Para que se envi√© el pago a la facturaci√≥n electr√≥nica de la DIAN
 '    QRY = "SELECT rcvalper AS vrPermanencia, rcvalmul AS vrMultas, rcnumero AS numMulta, rcplaca, rcnomcaj " _
 '            & "FROM opreccaja " _
 '            & "WHERE rcplaca = '" & Trim(Txtnumpla.text) & "' " _
@@ -4805,7 +4805,7 @@ Sigue_Proceso_Grabacion:
    On Error GoTo err_mensaje
      
    'WECC 06/14/2019 CAU2 No 1101 se agrega que solo cuando se compre la tasa de uso en origen y _
-   'las multas dejarla con la cantidad de avisos  permitidos, en la cancelaciÛn de las multas se descuenta un aviso
+   'las multas dejarla con la cantidad de avisos  permitidos, en la cancelaci√≥n de las multas se descuenta un aviso
    
    If Txtoritra.text = "O" Then
       fqry01 = "SELECT * " _
@@ -4845,7 +4845,7 @@ Sigue_Proceso_Grabacion:
    End If
    '**********************************************************************************
    '**********************************************************************************
-   'WECC CAU No 1103 Grabar el n˙mero de tasa de uso en un txt
+   'WECC CAU No 1103 Grabar el n√∫mero de tasa de uso en un txt
    NOMDIR = App.Path & "\CONSECUTIVO_" & Pc & ".TXT"
              
    NOMBRE = Dir(NOMDIR)
@@ -4929,7 +4929,7 @@ Sigue_Proceso_Grabacion:
    'Sebastian Rondon / 11 Agosto de 2023
    'Registro de venta tasa condicionada
    If L_Bandera_Tasa_Condicionada = True Then
-        'Se aumenta el n˙mero del aviso
+        'Se aumenta el n√∫mero del aviso
         QRY = "UPDATE ophojveh SET hvnumaviprot = hvnumaviprot + 1 WHERE hvplaca = '" & Txtnumpla.text & "' "
         Dbs.Execute (QRY)
         
@@ -4947,8 +4947,8 @@ Sigue_Proceso_Grabacion:
         Dbs.Execute (QRY)
    End If
    
-   'Sebasti·n Rondon Noviembre 02 - 2022
-   'Verificamos si pago Tag el vehÌculo
+   'Sebasti√°n Rondon Noviembre 02 - 2022
+   'Verificamos si pago Tag el veh√≠culo
    
    If L_Bandera_CobroTag = True Then
    
@@ -4979,7 +4979,7 @@ Sigue_Proceso_Grabacion:
         End If
         Tbl1.Close
         
-'        respuesta = MsgBox("øDesea Imprimir El Tag?", 64 + vbYesNo, "Imprimir")
+'        respuesta = MsgBox("¬øDesea Imprimir El Tag?", 64 + vbYesNo, "Imprimir")
 '        If respuesta = vbYes Then
 '        Imprimir_Zebra_Tag
         
@@ -5000,8 +5000,8 @@ Sigue_Proceso_Grabacion:
    
    
    'Camilo Campos - Mayo 05 de 2025
-   'Debido a la implementaciÛn de rodamiento las tasas de uso deben imprimirse all· mismo, pero igual se deja parametrizado en geparsis
-   'la posibilidad de imprimir, con el cÛdigo PARIMPTASA
+   'Debido a la implementaci√≥n de rodamiento las tasas de uso deben imprimirse all√° mismo, pero igual se deja parametrizado en geparsis
+   'la posibilidad de imprimir, con el c√≥digo PARIMPTASA
    
    If G_impresion = "S" Then
    
@@ -5014,7 +5014,7 @@ Sigue_Proceso_Grabacion:
    
    '***************************
    'Sebastian Rondon Jun/13/2022
-   'Mandamos informaciÛn al Web Service de Control y Salidas
+   'Mandamos informaci√≥n al Web Service de Control y Salidas
    
 '    NumTasa = Trim(Txtnumcon.Text)
 '    Placa = Trim(Txtnumpla.Text)
@@ -5031,9 +5031,9 @@ Sigue_Proceso_Grabacion:
 '    End If
     
     '****************************************
-    'Sebasti·n RondÛn - Oct 06 - 2022
-    'Se parcha todo el armado y enviÛ del JSON al Web Services de Protech
-    'Por motivos de constante falla de comunicaciÛn
+    'Sebasti√°n Rond√≥n - Oct 06 - 2022
+    'Se parcha todo el armado y envi√≥ del JSON al Web Services de Protech
+    'Por motivos de constante falla de comunicaci√≥n
     
 '    Call CreandoJsonControlSalida(NumTasa, Placa, Tterminal)
 '
@@ -5332,7 +5332,7 @@ Private Sub Btnimprimir_Click()
       If L_Bandera_CobroTag = True Then
     
         If ChkTag.Value = 1 Then
-            respuesta = MsgBox("øDesea Imprimir El Tag?", 64 + vbYesNo, "Imprimir")
+            respuesta = MsgBox("¬øDesea Imprimir El Tag?", 64 + vbYesNo, "Imprimir")
             If respuesta = vbYes Then
                 Imprimir_Zebra_Tag "Z", "N"
             End If
@@ -5350,7 +5350,7 @@ Private Sub Btnimprimir_Click()
         Set Tbl1 = Dbs.Execute(QRY)
         
         If Not Tbl1.EOF Then
-            respuesta = MsgBox("øDesea reimprimir el Tag?", 64 + vbYesNo, "Reimprimir")
+            respuesta = MsgBox("¬øDesea reimprimir el Tag?", 64 + vbYesNo, "Reimprimir")
             If respuesta = vbYes Then
                 Imprimir_Zebra_Tag "Z", "S"
             End If
@@ -5369,7 +5369,7 @@ Private Sub Btnimprimir_Click()
       If L_Bandera_CobroTag = True Then
     
         If ChkTag.Value = 1 Then
-            respuesta = MsgBox("øDesea Imprimir El Tag?", 64 + vbYesNo, "Imprimir")
+            respuesta = MsgBox("¬øDesea Imprimir El Tag?", 64 + vbYesNo, "Imprimir")
             If respuesta = vbYes Then
                 Imprimir_Zebra_Tag "N", "N"
             End If
@@ -5385,7 +5385,7 @@ Private Sub Btnimprimir_Click()
         Set Tbl1 = Dbs.Execute(QRY)
         
         If Not Tbl1.EOF Then
-            respuesta = MsgBox("øDesea reimprimir el Tag?", 64 + vbYesNo, "Reimprimir")
+            respuesta = MsgBox("¬øDesea reimprimir el Tag?", 64 + vbYesNo, "Reimprimir")
             If respuesta = vbYes Then
                 Imprimir_Zebra_Tag "N", "S"
             End If
@@ -5611,7 +5611,7 @@ Public Sub Imprimir_Zebra_Tag(ByVal f As String, ByVal d As String)
       LNumConBarra = Txtnumcon.text
    End If
    
-   'Buscamos el n˙mero consecutivo del TAG
+   'Buscamos el n√∫mero consecutivo del TAG
    QRY = "SELECT * FROM optag " _
             & "WHERE tafecpag IS NOT NULL " _
             & "AND taplaca = '" & Txtnumpla.text & "' " _
@@ -6533,7 +6533,7 @@ End Sub
 
 Private Sub ChkTag_Click()
 
-    'Sebasti·n RondÛn - 20 Octubre 2022
+    'Sebasti√°n Rond√≥n - 20 Octubre 2022
     'Se consulta el valor del nuevo concepto a cobrar
     QRY = "SELECT tavalor FROM optag " _
             & "WHERE taplaca = '" & Txtnumpla.text & "' " _
@@ -6639,7 +6639,7 @@ Private Sub Form_Load()
    L_Bandera_CierreAutomatico = 0
    L_Bandera_ReimpresionTag = False
    
-   'Sebasti·n RondÛn 28 de Marzo de 2023
+   'Sebasti√°n Rond√≥n 28 de Marzo de 2023
    'La terminal empieza a exigir la solicitud de tratamiento de datos personales
    chkDatosPersonales.Value = 1
    
@@ -6819,7 +6819,7 @@ Private Sub Form_Load()
    
    'L_Bandera_Rodamiento = False
    
-   'Sebasti·n RondÛn - Abril 02 de 2025
+   'Sebasti√°n Rond√≥n - Abril 02 de 2025
    'Elimino los registros de OPRECCAJA de la caja con fechas anteriores
    'Para eliminar registros basura de la tabla
    Dbs.Execute "DELETE FROM OPRECCAJA " _
@@ -6915,7 +6915,7 @@ Private Sub Mskhora_LostFocus()
    If LCodigoEmpresaIntegra = "" Or Trim(TxtNumConvenio.text) <> "" Then
       LCodigoEmpresaIntegra = Fn_Equivalencia_Empresa(L_Codigo_Empresa)
       If Trim(LCodigoEmpresaIntegra) = "" Then
-         MsgBox "El cÛdigo de la empresa no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+         MsgBox "El c√≥digo de la empresa no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
          Txtnumpla.Enabled = True
          Txtnumpla.SetFocus
          Exit Sub
@@ -7056,7 +7056,7 @@ Private Sub Mskhora_LostFocus()
                   Loop
                   Ftb01.Close
                   'If Format(Mskhora.Text, "HH:mm") <> Format(ConHora, "HH:mm") Then
-                     MsgBox "      No se le Puede Vender Tasas de uso porque " & Chr(13) & "la hora del n˙mero convenio: " & sNumConvenio & ", no es la autorizada   " & Chr(13) & "Las Horas Autorizadas son: " & sHorAuto, 48, "Advertencia"
+                     MsgBox "      No se le Puede Vender Tasas de uso porque " & Chr(13) & "la hora del n√∫mero convenio: " & sNumConvenio & ", no es la autorizada   " & Chr(13) & "Las Horas Autorizadas son: " & sHorAuto, 48, "Advertencia"
                      Txtnumpla.SetFocus
                      Txtnumpla.SelStart = 0
                      Txtnumpla.SelLength = Len(Txtnumpla.text)
@@ -7070,7 +7070,7 @@ Private Sub Mskhora_LostFocus()
                Ftb01.Close
                LCodigoEmpresaIntegra = Fn_Equivalencia_Empresa(L_Codigo_Empresa)
                If Trim(LCodigoEmpresaIntegra) = "" Then
-                  MsgBox "El cÛdigo de la empresa no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+                  MsgBox "El c√≥digo de la empresa no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
                   Txtnumpla.Enabled = True
                   Txtnumpla.SetFocus
                   Exit Sub
@@ -7114,7 +7114,7 @@ Private Sub Mskhora_LostFocus()
                   If Not IsNull(Ftb01(0)) Then
                      If Ftb01(0) >= 1 Then
                         Ftb01.Close
-                        MsgBox "Ya se vendiÛ la tasa de uso al convenio " & sNumConvenio & " a esta hora", 48, "Advertencia"
+                        MsgBox "Ya se vendi√≥ la tasa de uso al convenio " & sNumConvenio & " a esta hora", 48, "Advertencia"
                         'Mskhora.SetFocus
                         Btnlimpiar_Click
                         Exit Sub
@@ -7177,7 +7177,7 @@ Private Sub Mskhora_LostFocus()
 '                  Set Ftb01 = Dbs.Execute(Qry)
 '
 '                  If Not Ftb01.EOF Then
-'                     MsgBox "            No se le puede vender tasa de uso, " & Chr(13) & "la ˙ltima vez que la compro fue: " & Format(Ftb01!svfecha, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
+'                     MsgBox "            No se le puede vender tasa de uso, " & Chr(13) & "la √∫ltima vez que la compro fue: " & Format(Ftb01!svfecha, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
 '                     Ftb01.Close
 '                     Mskhora.Enabled = True
 '                     Mskhora.SetFocus
@@ -7193,8 +7193,8 @@ Private Sub Mskhora_LostFocus()
                         L_Tiempo_Ruta_Placa = 0
                         If Valida_Placa_Conductor(Txtnumpla.text, sfecsal1, sfecsal2, "P", "O") = False Then
                            sfecsal3 = Format(DateAdd("n", L_Tiempo_Ruta_Placa, L_Fecha_salida), "MM/dd/yyyy HH:mm")
-                           MsgBox "No se le puede vender tasa de uso al vehÌculo, " & Chr(13) _
-                           & "la ˙ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
+                           MsgBox "No se le puede vender tasa de uso al veh√≠culo, " & Chr(13) _
+                           & "la √∫ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
                            & "se le puede vender tasa de uso apartir de: " & Format(sfecsal3, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
                            Btnlimpiar_Click
                            Exit Sub
@@ -7236,7 +7236,7 @@ Private Sub Mskhora_LostFocus()
    '                        Set Ftb01 = Dbs.Execute(Qry)
    '
    '                        If Not Ftb01.EOF Then
-   '                           MsgBox "No se le puede vender tasa de uso a la cedula " & txtcedula.Text & ", " & Chr(13) & "    la ˙ltima vez que la compro fue: " & Format(Ftb01!svfecha, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
+   '                           MsgBox "No se le puede vender tasa de uso a la cedula " & txtcedula.Text & ", " & Chr(13) & "    la √∫ltima vez que la compro fue: " & Format(Ftb01!svfecha, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
    '                           Ftb01.Close
    '                           Mskhora.Enabled = True
    '                           Mskhora.SetFocus
@@ -7248,7 +7248,7 @@ Private Sub Mskhora_LostFocus()
                            If Valida_Placa_Conductor(txtCedula.text, sfecsal1, sfecsal2, "C", "O") = False Then
                               sfecsal3 = Format(DateAdd("n", sMinutosBuscar, L_Fecha_salida), "MM/dd/yyyy HH:mm")
                               MsgBox "No se le puede vender tasa de uso al conductor, " & Chr(13) _
-                              & "la ˙ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
+                              & "la √∫ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
                               & "se le puede vender tasa de uso apartir de: " & Format(sfecsal3, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
                               Btnlimpiar_Click
                               Exit Sub
@@ -7278,7 +7278,7 @@ Private Sub Mskhora_LostFocus()
    '                        Set Ftb01 = Dbs.Execute(Qry)
    '
    '                        If Not Ftb01.EOF Then
-   '                           MsgBox "No se le puede vender tasa de uso a la cedula " & Txtcedula1.Text & ", " & Chr(13) & "    la ˙ltima vez que la compro fue: " & Format(Ftb01!svfecha, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
+   '                           MsgBox "No se le puede vender tasa de uso a la cedula " & Txtcedula1.Text & ", " & Chr(13) & "    la √∫ltima vez que la compro fue: " & Format(Ftb01!svfecha, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
    '                           Ftb01.Close
    '                           Mskhora.Enabled = True
    '                           Mskhora.SetFocus
@@ -7288,7 +7288,7 @@ Private Sub Mskhora_LostFocus()
                            If Valida_Placa_Conductor(TxtCedula1.text, sfecsal1, sfecsal2, "C", "O") = False Then
                               sfecsal3 = Format(DateAdd("n", sMinutosBuscar, L_Fecha_salida), "MM/dd/yyyy HH:mm")
                               MsgBox "No se le puede vender tasa de uso al conductor, " & Chr(13) _
-                              & "la ˙ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
+                              & "la √∫ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
                               & "se le puede vender tasa de uso apartir de: " & Format(sfecsal3, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
                               Btnlimpiar_Click
                               Exit Sub
@@ -7308,8 +7308,8 @@ Private Sub Mskhora_LostFocus()
                            L_Tiempo_Ruta_Placa = 0
                            If Valida_Placa_Conductor(Txtnumpla.text, sfecsal1, sfecsal2, "P", "T") = False Then
                               sfecsal3 = Format(DateAdd("n", L_Tiempo_Ruta_Placa, L_Fecha_salida), "MM/dd/yyyy HH:mm")
-                              MsgBox "No se le puede vender tasa de uso al vehÌculo, " & Chr(13) _
-                              & "la ˙ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
+                              MsgBox "No se le puede vender tasa de uso al veh√≠culo, " & Chr(13) _
+                              & "la √∫ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
                               & "se le puede vender tasa de uso apartir de: " & Format(sfecsal3, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
                               Btnlimpiar_Click
                               Exit Sub
@@ -7374,7 +7374,7 @@ Private Sub Mskhora_LostFocus()
                      MsgBox "   La empresa no tiene autorizado para despachar " & Chr(13) & "                            este tipo de servicio", 48, "Advertencia"
                   Else
                      MsgBox "   La empresa no tiene autorizado para despachar " & Chr(13) _
-                           & "un vehÌculo en esta hora, sus horas permitidas son:  " & Chr(13) & L_HorasPermitidas, 48, "Advertencia"
+                           & "un veh√≠culo en esta hora, sus horas permitidas son:  " & Chr(13) & L_HorasPermitidas, 48, "Advertencia"
                   End If
                   Mskhora.SetFocus
                   Exit Sub
@@ -7494,7 +7494,7 @@ End Sub
 '            Else
 '                If L_Bandera_CierreAutomatico = 0 Then
 '                    If (CDate(horven) >= "00:50" And CDate(horven) <= "01:00") Then
-'                        MsgBox "°En 10 minutos se realizar· el cierre de caja autom·tico!", 48, "Advertencia"
+'                        MsgBox "¬°En 10 minutos se realizar√° el cierre de caja autom√°tico!", 48, "Advertencia"
 '                        L_Bandera_CierreAutomatico = 1
 '                        Exit Sub
 '                    End If
@@ -7633,7 +7633,7 @@ Private Sub txtcedula_LostFocus()
                   If Valida_Placa_Conductor(txtCedula.text, sfecsal1, sfecsal2, "C", "O") = False Then
                      sfecsal3 = Format(DateAdd("n", sMinutosBuscar, L_Fecha_salida), "MM/dd/yyyy HH:mm")
                      MsgBox "No se le puede vender tasa de uso al conductor, " & Chr(13) _
-                     & "la ˙ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
+                     & "la √∫ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
                      & "se le puede vender tasa de uso apartir de: " & Format(sfecsal3, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
                      Ftb04.Close
                      Btnlimpiar_Click
@@ -7644,7 +7644,7 @@ Private Sub txtcedula_LostFocus()
          End If
          
          
-        'Sebasti·n RondÛn - Abril 11 de 2023
+        'Sebasti√°n Rond√≥n - Abril 11 de 2023
         'Se empieza a validar que el conductor cuente con certificado EMGAF vigente
         QRY = "SELECT cocedula, NVL(TO_CHAR(cofecinicer, 'MM/DD/YYYY'), 'N/A') AS cofecinicer, NVL(TO_CHAR(cofecfincer, 'MM/DD/YYYY'), 'N/A') AS cofecfincer " _
               & "FROM coconductor " _
@@ -7655,12 +7655,12 @@ Private Sub txtcedula_LostFocus()
         If Not Tbl1.EOF Then
             If Tbl1!cofecinicer <> "N/A" And Tbl1!cofecfincer <> "N/A" Then
                 If CDate(Mskfecha.text) > CDate(Tbl1!cofecfincer) Then
-                    G_AvisoEmgaf = "SE—OR CONDUCTOR: EL CERTIFICADO MEDICO DE EMGAF SE ENCUENTRA VENCIDO O PROXIMO A VENCER." & Chr(13) & "ACERQUESE AL CONSULTORIO MEDICO DE ALCOHOLIMETRIA (ADITT-ASOTRANS) " & Chr(9) & "PARA RENOVARLO O ACTUALIZAR LA INFORMACI”N EN CASO QUE LO TENGA DE OTRA TERMINAL." & Chr(13) & "FECHA DE VENCIMIENTO: " & Tbl1!cofecfincer
+                    G_AvisoEmgaf = "SE√ëOR CONDUCTOR: EL CERTIFICADO MEDICO DE EMGAF SE ENCUENTRA VENCIDO O PROXIMO A VENCER." & Chr(13) & "ACERQUESE AL CONSULTORIO MEDICO DE ALCOHOLIMETRIA (ADITT-ASOTRANS) " & Chr(9) & "PARA RENOVARLO O ACTUALIZAR LA INFORMACI√ìN EN CASO QUE LO TENGA DE OTRA TERMINAL." & Chr(13) & "FECHA DE VENCIMIENTO: " & Tbl1!cofecfincer
                     AviEmgaf.Show 1
                 Else
                     sDias = DateDiff("d", CDate(Mskfecha.text), CDate(Tbl1!cofecfincer))
                     If sDias <= 15 Then
-                        G_AvisoEmgaf = "SE—OR CONDUCTOR: EL CERTIFICADO MEDICO DE EMGAF SE ENCUENTRA VENCIDO O PROXIMO A VENCER." & Chr(13) & "ACERQUESE AL CONSULTORIO MEDICO DE ALCOHOLIMETRIA (ADITT-ASOTRANS) " & Chr(9) & "PARA RENOVARLO O ACTUALIZAR LA INFORMACI”N EN CASO QUE LO TENGA DE OTRA TERMINAL." & Chr(13) & "FECHA DE VENCIMIENTO: " & Tbl1!cofecfincer
+                        G_AvisoEmgaf = "SE√ëOR CONDUCTOR: EL CERTIFICADO MEDICO DE EMGAF SE ENCUENTRA VENCIDO O PROXIMO A VENCER." & Chr(13) & "ACERQUESE AL CONSULTORIO MEDICO DE ALCOHOLIMETRIA (ADITT-ASOTRANS) " & Chr(9) & "PARA RENOVARLO O ACTUALIZAR LA INFORMACI√ìN EN CASO QUE LO TENGA DE OTRA TERMINAL." & Chr(13) & "FECHA DE VENCIMIENTO: " & Tbl1!cofecfincer
                         AviEmgaf.Show 1
                     End If
                 End If
@@ -7838,7 +7838,7 @@ err_txtcedula:
       txtCedula.text = ""
       Txtconact.text = ""
       txtapellido.text = ""
-      MsgBox "Longitud incorrecta vuelva a leer la cÈdula " & Err.Description, 16, "Error Lectura " & Err.Number
+      MsgBox "Longitud incorrecta vuelva a leer la c√©dula " & Err.Description, 16, "Error Lectura " & Err.Number
       txtCedula.SetFocus
    End If
    
@@ -7917,7 +7917,7 @@ Private Sub txtcedula1_LostFocus()
             Txtapellido1.text = ""
             Txtconact1.Enabled = True
             Txtapellido1.Enabled = True
-            MsgBox "El n˙mero de cedulas son iguales", 16, "Error"
+            MsgBox "El n√∫mero de cedulas son iguales", 16, "Error"
             TxtCedula1.SetFocus
             Exit Sub
          End If
@@ -7970,7 +7970,7 @@ Private Sub txtcedula1_LostFocus()
                      sMensaje = "14"
                      sfecsal3 = Format(DateAdd("n", sMinutosBuscar, L_Fecha_salida), "MM/dd/yyyy HH:mm")
                      MsgBox "No se le puede vender tasa de uso al conductor, " & Chr(13) _
-                     & "la ˙ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
+                     & "la √∫ltima vez que la compro fue: " & Format(L_Fecha_salida, "MMM dd/yyyy HH:mm") & "," & Chr(13) _
                      & "se le puede vender tasa de uso apartir de: " & Format(sfecsal3, "MMM dd/yyyy HH:mm"), 48, "Advertencia"
                      Ftb04.Close
                      Btnlimpiar_Click
@@ -7980,7 +7980,7 @@ Private Sub txtcedula1_LostFocus()
             End If
          End If
          
-         'Sebasti·n RondÛn - Abril 11 de 2023
+         'Sebasti√°n Rond√≥n - Abril 11 de 2023
             'Se empieza a validar que el conductor cuente con certificado EMGAF vigente
             QRY = "SELECT cocedula, NVL(TO_CHAR(cofecinicer, 'MM/DD/YYYY'), 'N/A') AS cofecinicer, NVL(TO_CHAR(cofecfincer, 'MM/DD/YYYY'), 'N/A') AS cofecfincer " _
                   & "FROM coconductor " _
@@ -7991,12 +7991,12 @@ Private Sub txtcedula1_LostFocus()
             If Not Tbl1.EOF Then
                 If Tbl1!cofecinicer <> "N/A" And Tbl1!cofecfincer <> "N/A" Then
                     If CDate(Mskfecha.text) > CDate(Tbl1!cofecfincer) Then
-                        G_AvisoEmgaf = "SE—OR CONDUCTOR: EL CERTIFICADO MEDICO DE EMGAF SE ENCUENTRA VENCIDO O PROXIMO A VENCER." & Chr(13) & "ACERQUESE AL CONSULTORIO MEDICO DE ALCOHOLIMETRIA (ADITT-ASOTRANS) " & Chr(9) & "PARA RENOVARLO O ACTUALIZAR LA INFORMACI”N EN CASO QUE LO TENGA DE OTRA TERMINAL." & Chr(13) & "FECHA DE VENCIMIENTO: " & Tbl1!cofecfincer
+                        G_AvisoEmgaf = "SE√ëOR CONDUCTOR: EL CERTIFICADO MEDICO DE EMGAF SE ENCUENTRA VENCIDO O PROXIMO A VENCER." & Chr(13) & "ACERQUESE AL CONSULTORIO MEDICO DE ALCOHOLIMETRIA (ADITT-ASOTRANS) " & Chr(9) & "PARA RENOVARLO O ACTUALIZAR LA INFORMACI√ìN EN CASO QUE LO TENGA DE OTRA TERMINAL." & Chr(13) & "FECHA DE VENCIMIENTO: " & Tbl1!cofecfincer
                         AviEmgaf.Show 1
                     Else
                         sDias = DateDiff("d", CDate(Mskfecha.text), CDate(Tbl1!cofecfincer))
                         If sDias <= 15 Then
-                            G_AvisoEmgaf = "SE—OR CONDUCTOR: EL CERTIFICADO MEDICO DE EMGAF SE ENCUENTRA VENCIDO O PROXIMO A VENCER." & Chr(13) & "ACERQUESE AL CONSULTORIO MEDICO DE ALCOHOLIMETRIA (ADITT-ASOTRANS) " & Chr(9) & "PARA RENOVARLO O ACTUALIZAR LA INFORMACI”N EN CASO QUE LO TENGA DE OTRA TERMINAL." & Chr(13) & "FECHA DE VENCIMIENTO: " & Tbl1!cofecfincer
+                            G_AvisoEmgaf = "SE√ëOR CONDUCTOR: EL CERTIFICADO MEDICO DE EMGAF SE ENCUENTRA VENCIDO O PROXIMO A VENCER." & Chr(13) & "ACERQUESE AL CONSULTORIO MEDICO DE ALCOHOLIMETRIA (ADITT-ASOTRANS) " & Chr(9) & "PARA RENOVARLO O ACTUALIZAR LA INFORMACI√ìN EN CASO QUE LO TENGA DE OTRA TERMINAL." & Chr(13) & "FECHA DE VENCIMIENTO: " & Tbl1!cofecfincer
                             AviEmgaf.Show 1
                         End If
                     End If
@@ -8176,7 +8176,7 @@ err_txtcedula:
       TxtCedula1.text = ""
       Txtconact1.text = ""
       Txtapellido1.text = ""
-      MsgBox "Longitud incorrecta vuelva a leer la cÈdula " & Err.Description & "-" & sMensaje, 16, "Error Lectura " & Err.Number
+      MsgBox "Longitud incorrecta vuelva a leer la c√©dula " & Err.Description & "-" & sMensaje, 16, "Error Lectura " & Err.Number
       TxtCedula1.SetFocus
    End If
    
@@ -8232,7 +8232,7 @@ Private Sub txtcodemp_LostFocus()
          End If
          LCodigoEmpresaIntegra = Fn_Equivalencia_Empresa(Txtcodemp.text)
          If Trim(LCodigoEmpresaIntegra) = "" Then
-            MsgBox "El cÛdigo de la empresa no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+            MsgBox "El c√≥digo de la empresa no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
             Txtcodemp.SetFocus
             Exit Sub
          End If
@@ -8383,7 +8383,7 @@ Private Sub Txtcodrut_LostFocus()
                If Tbl10.EOF Then
                    Tbl10.Close
                    Txtcodrut.SetFocus
-                   MsgBox "La empresa no tiene autorizada esta ruta para el dÌa de hoy", 48, "Advertencia"
+                   MsgBox "La empresa no tiene autorizada esta ruta para el d√≠a de hoy", 48, "Advertencia"
                    Exit Sub
                End If
             
@@ -8496,7 +8496,7 @@ Private Sub Txtcodrut_LostFocus()
          LCodigoRutaIntegra = Fn_Equivalencia_Ruta(Txtcodrut.text)
          If Trim(LCodigoRutaIntegra) = "" Then
             Txtcodrut.SetFocus
-            MsgBox "El cÛdigo de la ruta no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+            MsgBox "El c√≥digo de la ruta no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
             Txtcodrut.SelStart = 0
             Txtcodrut.SelLength = Len(Txtcodrut.text)
             Exit Sub
@@ -8515,12 +8515,12 @@ Private Sub Txtcodrut_LostFocus()
          
          If L_TipoDespachoVehiculo = "I" And influencia = "No" Then
             'solo espacho influencia
-            MsgBox "El vehÌculo solo se puede despachar en rutas de influencia", 48, "Advertencia"
+            MsgBox "El veh√≠culo solo se puede despachar en rutas de influencia", 48, "Advertencia"
             Btnlimpiar_Click
             Exit Sub
          ElseIf L_TipoDespachoVehiculo = "N" And influencia = "Si" Then
             'solo rutas nacionales
-            MsgBox "El vehÌculo solo se puede despachar en rutas de intermunicipales", 48, "Advertencia"
+            MsgBox "El veh√≠culo solo se puede despachar en rutas de intermunicipales", 48, "Advertencia"
             Btnlimpiar_Click
             Exit Sub
          End If
@@ -8532,7 +8532,7 @@ Private Sub Txtcodrut_LostFocus()
             Exit Sub
          End If
          
-         'Sebasti·n RondÛn - Agosto 08 de 2023
+         'Sebasti√°n Rond√≥n - Agosto 08 de 2023
          'Consultamos si la ruta pertenece al catalogo de rutas por digitar pasajeros
          QRY = "SELECT dscoddet, dsdes FROM gesuptip " _
                     & "INNER JOIN gedetsuptip ON gesuptip.stcodtip = gedetsuptip.dscodtip " _
@@ -8620,7 +8620,7 @@ Private Sub Txtcodrut_LostFocus()
                             'G_Validar_Ser = "S"
                             If Ftb03!cdhora <> "00:00" Then
                                 If CDate(Ftb03!cdhora) < CDate(Mskfecha.text) Then
-                                    MsgBox "El N˙mero de Convenio: " & sNumConvenio & ", ha caducado", 48, "Advertencia"
+                                    MsgBox "El N√∫mero de Convenio: " & sNumConvenio & ", ha caducado", 48, "Advertencia"
                                     Btnlimpiar_Click
                                     Exit Sub
                                 End If
@@ -8628,7 +8628,7 @@ Private Sub Txtcodrut_LostFocus()
                     
                             If sFecIniCon <> "" Then
                                 If CDate(sFecIniCon) > CDate(Mskfecha.text) Then
-                                    MsgBox "El N˙mero de Convenio: " & sNumConvenio & ", NO se encuentra Vigente", 48, "Advertencia"
+                                    MsgBox "El N√∫mero de Convenio: " & sNumConvenio & ", NO se encuentra Vigente", 48, "Advertencia"
                                     Btnlimpiar_Click
                                     Exit Sub
                                 End If
@@ -8637,7 +8637,7 @@ Private Sub Txtcodrut_LostFocus()
                         '******************************************************
                             If sFecVigCon <> "" Then
                                 If CDate(sFecVigCon) < CDate(Mskfecha.text) Then
-                                    MsgBox "El N˙mero de Convenio: " & sNumConvenio & ", ha caducado", 48, "Advertencia"
+                                    MsgBox "El N√∫mero de Convenio: " & sNumConvenio & ", ha caducado", 48, "Advertencia"
                                     Btnlimpiar_Click
                                     Exit Sub
                                 End If
@@ -8648,7 +8648,7 @@ Private Sub Txtcodrut_LostFocus()
                     
                         If sFecIniCon <> "" Then
                             If CDate(sFecIniCon) > CDate(Mskfecha.text) Then
-                                MsgBox "El N˙mero de Convenio: " & sNumConvenio & ", NO se encuentra Vigente", 48, "Advertencia"
+                                MsgBox "El N√∫mero de Convenio: " & sNumConvenio & ", NO se encuentra Vigente", 48, "Advertencia"
                                 Btnlimpiar_Click
                                 Exit Sub
                             End If
@@ -8656,7 +8656,7 @@ Private Sub Txtcodrut_LostFocus()
                        
                         If sFecVigCon <> "" Then
                             If CDate(sFecVigCon) < CDate(Mskfecha.text) Then
-                                MsgBox "El N˙mero de Convenio: " & sNumConvenio & ", ha caducado", 48, "Advertencia"
+                                MsgBox "El N√∫mero de Convenio: " & sNumConvenio & ", ha caducado", 48, "Advertencia"
                                 Btnlimpiar_Click
                                 Exit Sub
                                 End If
@@ -8666,7 +8666,7 @@ Private Sub Txtcodrut_LostFocus()
                 Else
                     If sTipo = "E" Or sTipo = "T" Then
                         
-                        respuesta = MsgBox("La ruta no esta autorizada en n˙mero de convenio: " & sNumConvenio & "," & Chr(13) & Chr(13) _
+                        respuesta = MsgBox("La ruta no esta autorizada en n√∫mero de convenio: " & sNumConvenio & "," & Chr(13) & Chr(13) _
                               & "Desea despacharlo para la ruta autorizada de la empresa", 48 + vbYesNo, "Advertencia")
                         If respuesta = vbNo Then
                            On Error Resume Next
@@ -8711,7 +8711,7 @@ Private Sub Txtcodrut_LostFocus()
                   End If
                   If Ftb02!cetipo = "T" Then
                      Ftb02.Close
-                     MsgBox "El N˙mero de Convenio: " & sNumConvenio & ", es un convenio de CONTRATOS", 48, "Advertencia"
+                     MsgBox "El N√∫mero de Convenio: " & sNumConvenio & ", es un convenio de CONTRATOS", 48, "Advertencia"
                      TxtNumConvenio.SetFocus
                      Exit Sub
                   End If
@@ -8727,7 +8727,7 @@ Private Sub Txtcodrut_LostFocus()
                   End If
                   If sFecIniCon <> "" Then
                      If CDate(sFecIniCon) > CDate(Mskfecha.text) Then
-                        MsgBox "El N˙mero de Convenio: " & sNumConvenio & ", NO se encuentra Vigente", 48, "Advertencia"
+                        MsgBox "El N√∫mero de Convenio: " & sNumConvenio & ", NO se encuentra Vigente", 48, "Advertencia"
                         Btnlimpiar_Click
                         Exit Sub
                      End If
@@ -8735,7 +8735,7 @@ Private Sub Txtcodrut_LostFocus()
                   
                   If sFecVigCon <> "" Then
                      If CDate(sFecVigCon) < CDate(Mskfecha.text) Then
-                        MsgBox "El N˙mero de Convenio: " & sNumConvenio & ", ha caducado", 48, "Advertencia"
+                        MsgBox "El N√∫mero de Convenio: " & sNumConvenio & ", ha caducado", 48, "Advertencia"
                         TxtNumConvenio.SetFocus
                         Exit Sub
                      End If
@@ -8759,7 +8759,7 @@ Private Sub Txtcodrut_LostFocus()
                      
                         If Ftb03!cdestado = "I" Then
                            Ftb03.Close
-                           MsgBox "El estado para el n˙mero de convenio: " & sNumConvenio & "," & Chr(13) & "para esta ruta esta inactivo", 48, "Advertencia"
+                           MsgBox "El estado para el n√∫mero de convenio: " & sNumConvenio & "," & Chr(13) & "para esta ruta esta inactivo", 48, "Advertencia"
                            TxtNumConvenio.SetFocus
                            Exit Sub
                         End If
@@ -8772,13 +8772,13 @@ Private Sub Txtcodrut_LostFocus()
                   
                   If sBanderaTipoServicio = False Then
                      Txtcodrut.SetFocus
-                     MsgBox "El N˙mero de Convenio: " & sNumConvenio & "," & Chr(13) & "para esta ruta no esta asignado en el tipo de servicio", 48, "Advertencia"
+                     MsgBox "El N√∫mero de Convenio: " & sNumConvenio & "," & Chr(13) & "para esta ruta no esta asignado en el tipo de servicio", 48, "Advertencia"
                      
                      Exit Sub
                   End If
                Else
                   Ftb02.Close
-                  MsgBox "N˙mero de convenio no pertencece a la empresa contratada", 48, "Advertencia"
+                  MsgBox "N√∫mero de convenio no pertencece a la empresa contratada", 48, "Advertencia"
                   TxtNumConvenio.SetFocus
                   Exit Sub
                End If
@@ -8858,7 +8858,7 @@ Private Sub Txtcodrut_LostFocus()
             
          Else
             Txtcodrut.SetFocus
-            MsgBox "El valor del par·metro VALIDARSER es " & G_Validar_Ser & ", debe ser S o N", 48, "Advertencia"
+            MsgBox "El valor del par√°metro VALIDARSER es " & G_Validar_Ser & ", debe ser S o N", 48, "Advertencia"
             Exit Sub
          End If
          
@@ -9290,7 +9290,7 @@ Private Sub Txtnumcon_LostFocus()
          sFuncioImpCon = ""
          sTurnoImpCon = 0
          L_Bandera_ReimpresionTag = False
-         MsgBox "N˙mero de tasa de uso no existe", 48, "Advertencia"
+         MsgBox "N√∫mero de tasa de uso no existe", 48, "Advertencia"
          Btnlimpiar_Click
       End If
    
@@ -9413,8 +9413,8 @@ Private Sub Txtnumpla_LostFocus()
    
    
    
-   'Sebasti·n RondÛn - Marzo 06 2023
-   'Setencia ˙nicamente para presentanciÛn FacturaciÛn ElectrÛnica de Tasas Usos
+   'Sebasti√°n Rond√≥n - Marzo 06 2023
+   'Setencia √∫nicamente para presentanci√≥n Facturaci√≥n Electr√≥nica de Tasas Usos
    '********************************************************************************
    
 '   QRY = "SELECT * FROM bolsa " _
@@ -9436,17 +9436,17 @@ Private Sub Txtnumpla_LostFocus()
 '        If Ftb01.EOF = False Then
 '            Fecha = Mid(Ftb01!psval, 1, 10)
 '            If CDate(Fecha) > CDate(Tbl1!btfecha) Then
-'                MsgBox "Se venciÛ la fecha de resoluciÛn de la bolsa. No se puede realizar la venta de Tasa de Uso", 48, "Advertencia"
+'                MsgBox "Se venci√≥ la fecha de resoluci√≥n de la bolsa. No se puede realizar la venta de Tasa de Uso", 48, "Advertencia"
 '                Btnlimpiar_Click
 '                Exit Sub
 '            End If
 '        Else
-'            MsgBox "No se pudo validar la fecha de resoluciÛn de la bolsa. No se puede realizar la venta de Tasa de Uso", 48, "Advertencia"
+'            MsgBox "No se pudo validar la fecha de resoluci√≥n de la bolsa. No se puede realizar la venta de Tasa de Uso", 48, "Advertencia"
 '            Btnlimpiar_Click
 '            Exit Sub
 '        End If
 '    Else
-'        MsgBox "No se encontrÛ bolsa de facturaciÛn. No se puede realizar la venta de Tasa de Uso", 48, "Advertencia"
+'        MsgBox "No se encontr√≥ bolsa de facturaci√≥n. No se puede realizar la venta de Tasa de Uso", 48, "Advertencia"
 '        Btnlimpiar_Click
 '        Exit Sub
 '    End If
@@ -9513,8 +9513,8 @@ Private Sub Txtnumpla_LostFocus()
          End If
       End If
       
-         'Sebasti·n RondÛn - Enero 14 de 2025
-      'Se valida que no se vendan tasas faltando 10 minutos de acabar el dÌa
+         'Sebasti√°n Rond√≥n - Enero 14 de 2025
+      'Se valida que no se vendan tasas faltando 10 minutos de acabar el d√≠a
       If G_Turno = 4 Then
         If Valida_Hora_Cierre_Facturacion = False Then
             If Trim(Txtnumpla.text) = "" Then
@@ -9543,13 +9543,13 @@ Private Sub Txtnumpla_LostFocus()
       
    
       
-       'Sebastian RondÛn - Abril 08 de 2024
-      'Validamos a primera mano si el vehÌculo cuenta con Rodamiento programado
+       'Sebastian Rond√≥n - Abril 08 de 2024
+      'Validamos a primera mano si el veh√≠culo cuenta con Rodamiento programado
        Call Validar_Despacho_Multas(Txtnumpla.text, hora)
       
       If UCase(G_Tipo_Terminal) = "CENTRAL" Then
       
-        'Sebasti·n RondÛn - 29 de Mayo de 2023
+        'Sebasti√°n Rond√≥n - 29 de Mayo de 2023
         'Se consulta parametro para definir si el sistema permite cobrar Duplicado de documentos
         QRY = "SELECT psval FROM geparsis WHERE pscod = 'COBRODUPLI' "
         Set Tbl1 = Dbs.Execute(QRY)
@@ -9570,7 +9570,7 @@ Private Sub Txtnumpla_LostFocus()
              
             Ftb01.Close
             G_BloqTasaUso = False
-            Avimul.Show 1 'cuando le dan salir a este aviso se toman las multas seleccionadas, las sumamos m·s adelante
+            Avimul.Show 1 'cuando le dan salir a este aviso se toman las multas seleccionadas, las sumamos m√°s adelante
              
           '****************************************************************'
           ' Se bloquea la Tasa se uso si la multa es 13 (Ingreso a rampas  '
@@ -9660,13 +9660,13 @@ Private Sub Txtnumpla_LostFocus()
          
          If Not IsNull(Ftb01!hvcarnet) Then
             If Ftb01!hvcarnet = "N" Then
-               MsgBox "El vehÌculo no tiene FICHA", 48, "Advertencia"
+               MsgBox "El veh√≠culo no tiene FICHA", 48, "Advertencia"
             End If
          End If
          If Not IsNull(Ftb01!hvclase) Then
             L_Clase = Ftb01!hvclase
          Else
-            MsgBox "El vehÌculo no tiene clase asignada", 48, "Advertencia"
+            MsgBox "El veh√≠culo no tiene clase asignada", 48, "Advertencia"
             Txtnumpla.SetFocus
             Exit Sub
          End If
@@ -9711,13 +9711,13 @@ Private Sub Txtnumpla_LostFocus()
          LClaseIntegra = Fn_Equivalencia_Servicio(Txttipveh.text)
          LTipoServicioIntegra = Traer_Descripcion(Txttipveh.text, "RELACION TIPO VEHICULO-TIPO SERVICIO")
          If Trim(LClaseIntegra) = "" Then
-            MsgBox "El tipo de servicio no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+            MsgBox "El tipo de servicio no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
             Txtnumpla.Enabled = True
             Txtnumpla.SetFocus
             Exit Sub
          End If
          If Trim(LTipoServicioIntegra) = "" Then
-            MsgBox "El tipo de servicio no tiene una relaciÛn con la clase", 48, "Advertencia"
+            MsgBox "El tipo de servicio no tiene una relaci√≥n con la clase", 48, "Advertencia"
             Txtnumpla.Enabled = True
             Txtnumpla.SetFocus
             Exit Sub
@@ -9841,8 +9841,8 @@ Private Sub Txtnumpla_LostFocus()
          
             
         '***********************************************
-        'Sebasti·n RondÛn - 02 Noviembre - 2022
-        'Validar si el vehÌculo cuenta con Tag para pagar
+        'Sebasti√°n Rond√≥n - 02 Noviembre - 2022
+        'Validar si el veh√≠culo cuenta con Tag para pagar
             
         'If UCase(G_Tipo_Terminal) = "CENTRAL" Then
             
@@ -9867,14 +9867,14 @@ Private Sub Txtnumpla_LostFocus()
                 
                 If CDbl(Tbl1!taaviso) < CDbl(Ftb01!psval) Then
                 
-                    respuestaTag = MsgBox("El vehÌculo cuenta con pago de TAG pendiente." & Chr(13) & "              øDesea cobrarlo en esta Tasa?" & Chr(13) & "                     Avisos restantes: " & CDbl(Ftb01!psval) - CDbl(Tbl1!taaviso) & ". ", 64 + vbYesNo, "Advertencia")
+                    respuestaTag = MsgBox("El veh√≠culo cuenta con pago de TAG pendiente." & Chr(13) & "              ¬øDesea cobrarlo en esta Tasa?" & Chr(13) & "                     Avisos restantes: " & CDbl(Ftb01!psval) - CDbl(Tbl1!taaviso) & ". ", 64 + vbYesNo, "Advertencia")
                     
                     If respuestaTag = vbYes Then
                         L_Bandera_NumeroTag = Tbl1!tanumero
                         ChkTag.Value = 1
                     End If
                 ElseIf CDbl(Tbl1!taaviso) >= CDbl(Ftb01!psval) Then
-                    MsgBox "El vehÌculo cuenta con pago de TAG pendiente." & Chr(13) & "°⁄ltimo aviso!, se debe cobrar obligatoriamente.", 48, "Advertencia"
+                    MsgBox "El veh√≠culo cuenta con pago de TAG pendiente." & Chr(13) & "¬°√öltimo aviso!, se debe cobrar obligatoriamente.", 48, "Advertencia"
                     L_Bandera_NumeroTag = Tbl1!tanumero
                     ChkTag.Value = 1
                 End If
@@ -9908,17 +9908,17 @@ Private Sub Txtnumpla_LostFocus()
                Avialc = "No"
                If UCase(G_Tipo_Terminal) = "SUR" Then
                   L_Entrada = "TS"
-                  'respuesta = MsgBox("No Se Ha Registrado El Ingresado Del VehÌculo Al Terminal." & Chr(13) & "                            Desea crear el ingreso", 64 + vbYesNo, "Advertencia")
+                  'respuesta = MsgBox("No Se Ha Registrado El Ingresado Del Veh√≠culo Al Terminal." & Chr(13) & "                            Desea crear el ingreso", 64 + vbYesNo, "Advertencia")
                   respuesta = vbYes
                ElseIf UCase(G_Tipo_Terminal) = "NORTE" Then
                   L_Entrada = "TN"
-                  'respuesta = MsgBox("No Se Ha Registrado El Ingresado Del VehÌculo Al Terminal." & Chr(13) & "                            Desea crear el ingreso", 64 + vbYesNo, "Advertencia")
+                  'respuesta = MsgBox("No Se Ha Registrado El Ingresado Del Veh√≠culo Al Terminal." & Chr(13) & "                            Desea crear el ingreso", 64 + vbYesNo, "Advertencia")
                   respuesta = vbYes
                Else
                   L_Entrada = "EC"
                   'MsgBox "No se ha registrado ingreso a las instalaciones del terminal," & Chr(13) & " por favor dirigirse a la oficina de servicio al transportador", 48, "Advertencia"
                   'respuesta = vbNo
-                  'MsgBox "No se registro el ingreso del vehÌculo" & Chr(13) & "Se hara el ingreso autom·tico a partir de la venta de Tasa de Uso", 48, "Advertencia"
+                  'MsgBox "No se registro el ingreso del veh√≠culo" & Chr(13) & "Se hara el ingreso autom√°tico a partir de la venta de Tasa de Uso", 48, "Advertencia"
                   respuesta = vbYes
                End If
                
@@ -9976,11 +9976,11 @@ Private Sub Txtnumpla_LostFocus()
             End If
             
             '**********************************************
-            'Sebasti·n RondÛn - 01 - Noviembre - 2022
-            'Conocer si el vehÌculo se le registro entrada por parte de Protech
+            'Sebasti√°n Rond√≥n - 01 - Noviembre - 2022
+            'Conocer si el veh√≠culo se le registro entrada por parte de Protech
             If UCase(G_Tipo_Terminal) = "CENTRAL" Then
             
-                'Consultamos primero la ˙ltima entrada
+                'Consultamos primero la √∫ltima entrada
                 fqry01 = "SELECT * FROM ( " _
                                     & "SELECT isfecsal, TO_CHAR(ishorsal, 'HH24:MI:SS') AS ishorsal FROM coingsalp " _
                                     & "WHERE isfecsal IS NOT NULL " _
@@ -10010,9 +10010,9 @@ Private Sub Txtnumpla_LostFocus()
                         'QRY1 = "INSERT INTO VEINGPROT (ptplaca, ptfecha, pthora) " _
                         '        & "VALUES('" & Txtnumpla.text & "', TO_DATE('" & Fecha & "', 'MM/DD/YYYY'), TO_DATE('" & horven1 & "', 'hh24:mi:ss') )"
                         'Dbs.Execute (QRY1)
-                        'MsgBox "No se ha registrado el ingreso del vehÌculo por parte de Protech.", 48, "Advertencia"
+                        'MsgBox "No se ha registrado el ingreso del veh√≠culo por parte de Protech.", 48, "Advertencia"
                         
-                        'Consultamos primero cuantos avisos tiene el vehÌculo
+                        'Consultamos primero cuantos avisos tiene el veh√≠culo
                         fqry02 = "SELECT hvnumaviprot, hvbandvencon FROM ophojveh " _
                                     & "WHERE hvplaca = '" & Txtnumpla.text & "' "
                         Set Tbl2 = Dbs.Execute(fqry02)
@@ -10337,7 +10337,7 @@ Private Sub Txtoritra_LostFocus()
                Else
                   On Error Resume Next
                   Txtcodrut.SetFocus
-                  MsgBox "El valor del par·metro VALIDARSER es " & G_Validar_Ser & ", debe ser S o N", 48, "Advertencia"
+                  MsgBox "El valor del par√°metro VALIDARSER es " & G_Validar_Ser & ", debe ser S o N", 48, "Advertencia"
                   Exit Sub
                End If
                        
@@ -10424,9 +10424,9 @@ Private Sub Txtoritra_LostFocus()
                         L_Valida_Alistamiento = "False"
                      End If
                      If L_Valida_Alistamiento = "False" Then
-                        'MsgBox "Falta el n˙mero del alistamiento", 48, "Advertencia"
+                        'MsgBox "Falta el n√∫mero del alistamiento", 48, "Advertencia"
                         'TxtNumAlistamiento.Enabled = False
-                        'respuesta = MsgBox("Falta el n˙mero del alistamiento, desea ingresar el n˙mero?", 48 + vbYesNo, "Advertencia")
+                        'respuesta = MsgBox("Falta el n√∫mero del alistamiento, desea ingresar el n√∫mero?", 48 + vbYesNo, "Advertencia")
                         
                         Aviso_Alistamiento = False
                     '     Debug.Print Aviso_Alistamiento & " 1"
@@ -10456,9 +10456,9 @@ Private Sub Txtoritra_LostFocus()
                               End If
                               
                               If L_Valida_Alistamiento = "False" Then
-                                 'MsgBox "Falta el n˙mero del alistamiento", 48, "Advertencia"
+                                 'MsgBox "Falta el n√∫mero del alistamiento", 48, "Advertencia"
                                  'TxtNumAlistamiento.Enabled = False
-                                 'respuesta = MsgBox("Falta el n˙mero del alistamiento, desea ingresar el n˙mero?", 48 + vbYesNo, "Advertencia")
+                                 'respuesta = MsgBox("Falta el n√∫mero del alistamiento, desea ingresar el n√∫mero?", 48 + vbYesNo, "Advertencia")
                                  Aviso_Alistamiento = False
                    '              Debug.Print Aviso_Alistamiento & " 2"
                                  'If respuesta = vbYes Then
@@ -10484,7 +10484,7 @@ Private Sub Txtoritra_LostFocus()
       '                        Call Transmitir(qry)
       '
       '                        If L_Valida_Alistamiento = "False" Then
-      '                           MsgBox "Falta el n˙mero del alistamiento", 48, "Advertencia"
+      '                           MsgBox "Falta el n√∫mero del alistamiento", 48, "Advertencia"
       '                           Aviso_Alistamiento = False
       '                           MsgBox L_Valida_Alistamiento & " 3"
       '                        End If
@@ -10514,11 +10514,11 @@ Private Sub Txtoritra_LostFocus()
             End If
          ElseIf Txtoritra.text = "T" Then
          
-            'Sebasti·n RondÛn - Febrero 19 de 2025
+            'Sebasti√°n Rond√≥n - Febrero 19 de 2025
             'La terminal solicita que el sistema no permita venta de tasas de uso transito seguidos
-            'Por lo cual determinamos si ya se vendio tasa de uso reciente para el vehÌculo
+            'Por lo cual determinamos si ya se vendio tasa de uso reciente para el veh√≠culo
             If Valida_Ruta_Transito = False Then
-                MsgBox "El vehÌculo compro recientemente tasa de uso en transito. " & vbNewLine & "Se cancela la venta.", 48, "Advertencia"
+                MsgBox "El veh√≠culo compro recientemente tasa de uso en transito. " & vbNewLine & "Se cancela la venta.", 48, "Advertencia"
                 Txtnumpla.text = ""
                 Btnlimpiar_Click
                 Exit Sub
@@ -10622,18 +10622,18 @@ End Sub
 Private Sub TxtPasajeros_LostFocus()
     If Txtpasajeros.text <> "" Then
         If Txtnumpla.text <> "" Then
-            'Buscamos el vehÌculo para verficar que la cantidad de pasajeros no supere a la capacidad m·xima del vehÌculo
+            'Buscamos el veh√≠culo para verficar que la cantidad de pasajeros no supere a la capacidad m√°xima del veh√≠culo
             QRY = "SELECT hvnumpas FROM ophojveh WHERE hvplaca = '" & Txtnumpla.text & "' "
             Set Tbl1 = Dbs.Execute(QRY)
 
             If Not Tbl1.EOF Then
                 If CDbl(Txtpasajeros.text) > CDbl(Tbl1!hvnumpas) Then
-                    MsgBox "El n˙mero de pasajeros digitados es mayor al n˙mero de pasajeros permitidos del vehÌculo", 48, "Advertencia"
+                    MsgBox "El n√∫mero de pasajeros digitados es mayor al n√∫mero de pasajeros permitidos del veh√≠culo", 48, "Advertencia"
                     Txtpasajeros.text = ""
                     Exit Sub
                 End If
             Else
-                MsgBox "No se encontro el vehÌculo digitado", 48, "Advertencia"
+                MsgBox "No se encontro el veh√≠culo digitado", 48, "Advertencia"
                 Txtpasajeros.text = ""
                 Exit Sub
             End If
@@ -10693,12 +10693,12 @@ Private Sub Txttipveh_LostFocus()
          
          LTipoServicioIntegra = Traer_Descripcion(Txttipveh.text, "RELACION TIPO VEHICULO-TIPO SERVICIO")
          If Trim(LClaseIntegra) = "" Then
-            MsgBox "El tipo de servicio no tiene un cÛdigo de equivalencia de INTEGRA", 48, "Advertencia"
+            MsgBox "El tipo de servicio no tiene un c√≥digo de equivalencia de INTEGRA", 48, "Advertencia"
             Txttipveh.SetFocus
             Exit Sub
          End If
          If Trim(LTipoServicioIntegra) = "" Then
-            MsgBox "El tipo de servicio no tiene una relaciÛn con la clase", 48, "Advertencia"
+            MsgBox "El tipo de servicio no tiene una relaci√≥n con la clase", 48, "Advertencia"
             Txttipveh.SetFocus
             Exit Sub
          End If
@@ -10724,8 +10724,8 @@ Private Function Parqueadero() As Boolean
       L_Consecutivo_Parqueadero = 0
       Parqueadero = True
       
-    'Sebasti·n RondÛn - Enero 24 de 2023
-    'Se consulta par·metro para la consulta de coparqueop
+    'Sebasti√°n Rond√≥n - Enero 24 de 2023
+    'Se consulta par√°metro para la consulta de coparqueop
     'Mientras se decide que se va hacer con la data de esta tabla
     QRY = "SELECT psval FROM geparsis " _
             & "WHERE pscod = 'FECPARPRO' "
@@ -10758,7 +10758,7 @@ Private Function Parqueadero() As Boolean
          If Not TieneParqueaderosSeleccionados() Then
              If sAviso >= Val(L_AvisoParqueadero) Then
                 'cuando llega al limite de avisos obliga a cancelar el valor
-                MsgBox "Debe de cancelar el valor del parqueadero " & Chr(13) & "ya llegÛ al limite de avisos de parqueadero", 48, "Advertencia"
+                MsgBox "Debe de cancelar el valor del parqueadero " & Chr(13) & "ya lleg√≥ al limite de avisos de parqueadero", 48, "Advertencia"
                 Parqueadero = False
     '            respuesta = 6
     '         Else
@@ -11100,7 +11100,7 @@ Private Function Valida_Ruta_Transito() As Boolean
         sFechaActual = Tbl4!psval
     End If
                 
-    'Consultamos la ˙ltima tasa de uso en transito vendida para el vehÌculo
+    'Consultamos la √∫ltima tasa de uso en transito vendida para el veh√≠culo
     QRY = "SELECT * FROM (" _
                 & "SELECT coplaca, TO_CHAR(cofecsal, 'MM/DD/YYYY') AS cofecsal, TO_CHAR(cohorven, 'HH24:MI') AS cohorven " _
                             & "FROM coconduc " _
@@ -11131,7 +11131,7 @@ Private Function Valida_Ruta_Transito() As Boolean
             Valida_Ruta_Transito = True
         End If
     Else
-        'Si no trae datos la consulta, se entiende que no ha comprado tasa de uso para el presente dÌa
+        'Si no trae datos la consulta, se entiende que no ha comprado tasa de uso para el presente d√≠a
         Valida_Ruta_Transito = True
     End If
     
@@ -11191,7 +11191,7 @@ Function imprimirMulta(ByVal fechaMulta As String, ByVal codinf As String, ByVal
          If Not Ftb07.EOF Then
                 sDestinoTUT = Ftb07!rudestino 'trae el nombre de la ruta
                 sDestinoPLA = Ftb07!muplanilla 'numero de planilla con la que quedo la multa
-                sDestinoTIQ = Ftb07!mudestino 'cÛdigo de la ruta
+                sDestinoTIQ = Ftb07!mudestino 'c√≥digo de la ruta
         Else
         'Como contigencia en caso de fallar la consulta de arriba, dejamos la INFO de la TU actual
                 sDestinoTUT = Lblnomrut.Caption
@@ -11349,21 +11349,13 @@ Function imprimirMulta(ByVal fechaMulta As String, ByVal codinf As String, ByVal
          End If
          
       Else
-        MsgBox "Verifique el tipo de impresiÛn que tiene definida", 48, "Advertencia"
-        'Si entra aqui significa que tienen mal definida la impresiÛn
-        imprimirMulta = False
-      
-        Exit Function
-      End If
-    
- 
-   
-   imprimirMulta = True
-    GoTo Finalizar  'queda de esta forma debido a que en el ejecutable se esta colapsando si realiza m·s de 2 impresiones de una multa/parqueadero
+    Call LiberarRecursosImpresion()
+    Exit Function
+    GoTo Finalizar  'queda de esta forma debido a que en el ejecutable se esta colapsando si realiza m√°s de 2 impresiones de una multa/parqueadero
    
 Errores:
-   MsgBox "No se ha podido generar la impresiÛn, vuelva a intentar " & Err.Description, 16, "Error " & Err.Number
-   imprimirMulta = False  'MUY IMPORTANTE definimos esto como una funciÛn para poder validar en el metodo principal si lanza error
+   MsgBox "No se ha podido generar la impresi√≥n, vuelva a intentar " & Err.Description, 16, "Error " & Err.Number
+   imprimirMulta = False  'MUY IMPORTANTE definimos esto como una funci√≥n para poder validar en el metodo principal si lanza error
    Exit Function
    
    
@@ -11552,10 +11544,22 @@ Function ReImprimirPago(ByVal sTiempoPermanencia As String, ByVal sNombreTermina
          
    Else
         'si entra aqui significa que no tiene bien definido el tipo de impresora
-        MsgBox "Verifique el tipo de impresiÛn que tiene definida", 48, "Advertencia"
-        ReImprimirPago = False
-        Exit Function
-   End If
+    Call LiberarRecursosImpresion(False)
+
+'--------------------------------------------------------------------
+' Sub para liberar los recursos utilizados en las rutinas de impresi√≥n
+'--------------------------------------------------------------------
+Private Sub LiberarRecursosImpresion(Optional ByVal cerrarMulta As Boolean = True)
+    On Error Resume Next
+    If Not Ftb07 Is Nothing Then
+        If Ftb07.State <> 0 Then Ftb07.Close
+        Set Ftb07 = Nothing
+    End If
+    Close #1
+    If cerrarMulta Then Set rptMultas = Nothing
+    Set rptPar = Nothing
+    On Error GoTo 0
+End Sub
    
    
     ReImprimirPago = True
